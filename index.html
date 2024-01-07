@@ -10,48 +10,106 @@
 
   <title>Frontend Mentor | Fylo landing page with two column layout</title>
 
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution {
-      font-size: 11px;
-      text-align: center;
-    }
+  <!-- LINK Font Raleway and OpenSans ! -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Raleway:wght@400;700&display=swap"
+    rel="stylesheet">
 
-    .attribution a {
-      color: hsl(228, 45%, 44%);
-    }
-  </style>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap" rel="stylesheet">
+
+  <!-- Link  stylesheet 👍 -->
+  <link rel="stylesheet" href="Css/main.css">
+  <!-- Link  Font aowsem  -->
+  <link rel="stylesheet" href="Css/all.min.css">
 </head>
 
 <body background="black">
+  <header>
+    <div class="container">
+      <div class="logo-nav">
+        <div class="logo">
+          <img src="images/logo.svg" alt="Image Not Found!">
+        </div>
+        <nav>
+          <a href="#Features">Features</a>
+          <a href="#Team">Team</a>
+          <a href="#SignIn">Sign In</a>
+        </nav>
+      </div>
+    </div>
+  </header>
+  <main>
+    <section>
+      <div class="container">
+        <div class="text-imge">
+          <div class="spichal-text">
+            <h2>All your files in one secure <br> location, accessible anywhere.</h2>
+            <p> Fylo stores your most important files in one secure location.
+              Access <br>them wherever you need, share and collaborate with friends,
+              family,<br> and co-workers.
+            </p>
+            <form action="#" method="post">
+              <input type="email" placeholder="Enter Your email..." name="email" required>
 
-  Features
-  Team
-  Sign In
+              <button type="submit">Get Started</button>
+            </form>
+          </div>
+          <div class="sec1-img">
+            <img src="images/illustration-1.svg" alt="Image Not Found!">
+          </div>
+        </div>
+      </div>
+    </section>
 
-  All your files in one secure location, accessible anywhere.
+    <!-- Section 2 -->
+    <section class="section-2">
+      <div class="container">
+        <div class="text-imge">
+          <div class="spichal-text">
+            <h2>Stay productive, wherever you are.</h2>
+            <p>
+              Never let location be an issue when accessing your files. Fylo has you <br>
+              covered for all of your file storage needs.
+            </p>
+            <p>
+              Securely share files and folders with friends, family and colleagues for <br>
+              live collaboration. No email attachments required!
+            </p>
+            <span class="span-link">
+              See how Fylo works
+              <i class="fa-solid fa-arrow-right"></i>
+            </span>
+            <div class="spical-contant">
+              <i class="fa-solid fa-quote-left"></i>
+              <p>
+                Fylo has improved our team productivity by <br> an order of magnitude. Since
+                making the <br> switch our team has become a well-oiled <br> collaboration machine.
+              </p>
+              <div class="card-person">
+                <div class="img-preson">
+                  <img src="images/avatar-testimonial.jpg" alt="Image Not Found!">
+                </div>
+                <div class="text-person">
+                  <h2>Kyle Burton</h2>
+                  <p>Founder & CEO, Huddle</p>
+                </div>
 
-  Fylo stores your most important files in one secure location.
-  Access them wherever you need, share and collaborate with friends,
-  family, and co-workers.
+              </div>
+            </div>
+          </div>
+          <div class="sec1-img">
 
-  Get Started
+            <img src="images/illustration-2.svg" alt="Image Not Found!">
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+  <!-- 
 
-  Stay productive, wherever you are
-
-  Never let location be an issue when accessing your files. Fylo has you
-  covered for all of your file storage needs.
-
-  Securely share files and folders with friends, family and colleagues for
-  live collaboration. No email attachments required!
-
-  See how Fylo works
-
-  Fylo has improved our team productivity by an order of magnitude. Since
-  making the switch our team has become a well-oiled collaboration machine.
-
-  Kyle Burton
-  Founder & CEO, Huddle
 
   Get early access today
 
@@ -70,12 +128,12 @@
 
   Contact Us
   Terms
-  Privacy
+  Privacy -->
 
   <footer>
     <p class="attribution">
       Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
-      Coded by <a href="#">Your Name Here</a>.
+      Coded by <a href="mailto:abdoelaraby447@gamil.com">Abdelrahman Mohamed</a>
     </p>
   </footer>
 </body>
